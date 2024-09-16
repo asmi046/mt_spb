@@ -1,3 +1,17 @@
+.nav_menu {
+    font-size: 16px;
+    display: flex;
+    ul {
+        display: flex;
+        li {
+            margin: auto 0 auto 20px;
+            a:hover {
+                border-bottom: 2px solid $main_color;
+            }
+        }
+    }
+}
+
 .side_menue_wrapper{
     position: fixed;
     width: 0;
