@@ -35,4 +35,7 @@
         @yield('main')
     </main>
 </body>
+
+<x-footer></x-footer>
+
 </html>

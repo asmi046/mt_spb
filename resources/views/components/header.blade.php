@@ -5,12 +5,7 @@
         </a>
 
         <nav class="nav_menu">
-            <ul>
-                <li><a href="#">О предложении</a></li>
-                <li><a href="#">Топ 10 локаций</a></li>
-                <li><a href="#">Программа тура</a></li>
-                <li><a href="#">Контакты</a></li>
-            </ul>
+            <x-menu-puncts></x-menu-puncts>
         </nav>
     </div>
 </header>

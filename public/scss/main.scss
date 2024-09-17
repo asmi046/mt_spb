@@ -57,6 +57,45 @@ h1 {
     }
 }
 
+.download_btn {
+    border: 1px solid $gray_border_color;
+    padding: 10px 80px 10px 30px;
+    border-radius: 50px;
+    display: inline-block;
+    font-size: 14px;
+    span{
+        text-align: left;
+        position: relative;
+        &:after {
+            content: "";
+            position: absolute;
+            width:45px;
+            height:45px;
+            border-radius: 55px;
+            background-color: $main_color;
+            top: -6px;
+            right: -74px;
+            background-image: url(../img/icon/download.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 60%;
+        }
+    }
+
+    &:hover {
+        span::after {
+            content: "";
+            background-color: $hover_color;
+        }
+    }
+
+
+}
+
+.central_section {
+    text-align: center;
+}
+
 
 @media (max-width:1280px) {
     .container{
@@ -71,8 +110,6 @@ h1 {
 @import "about";
 @import "persons";
 @import "locations";
-
-// Схема с сайдбаром
-// @import "sidebar-schem";
-
-
+@import "program";
+@import "contacts";
+@import "footer";

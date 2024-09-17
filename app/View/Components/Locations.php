@@ -13,14 +13,14 @@ class Locations extends Component
     public function __construct()
     {
         $this->all_location = [
-            "Дворцовая площадь" => "dwor-p.jpg",
-            "Сенатская площадь" => "senat-p.jpg",
-            "Адмиралтейство" => "admiral.jpg",
-            "Стрелка Васильевского острова" => "strelka.jpg",
-            "Петропавловская крепость" => "petropavl.jpg",
-            "Казанский собор" => "kazan.jpg",
-            "Государственный Эрмитаж" => "ermit.jpg",
-            "Юсуповский Дворец" => "ysup.jpg",
+            "Дворцовая площадь" => "dwor-p.webp",
+            "Сенатская площадь" => "senat-p.webp",
+            "Адмиралтейство" => "admiral.webp",
+            "Стрелка Васильевского острова" => "strelka.webp",
+            "Петропавловская крепость" => "petropavl.webp",
+            "Казанский собор" => "kazan.webp",
+            "Государственный Эрмитаж" => "ermit.webp",
+            "Юсуповский Дворец" => "ysup.webp",
         ];
     }
 

@@ -1,0 +1,16 @@
+.contacts_blk {
+    background-color: $gray_bg_color_y;
+    border-radius: 20px;
+    border:1px solid $gray_border_color;
+    display: flex;
+    width:70%;
+    margin: 0 auto;
+    .map {
+        height: 600px;
+        flex: 1;
+    }
+
+    .text {
+        flex: 1;
+    }
+}

@@ -31,26 +31,26 @@
                 <div class="photo">
                     <div class="col">
                         <div class="photo_wrap photo_big">
-                            <img src="{{ asset('img/dp/dp.jpg') }}" alt="">
+                            <img src="{{ asset('img/dp/dp.webp') }}" alt="">
                         </div>
                         <div class="photo_wrap photo_smile">
-                            <img src="{{ asset('img/dp/dp1.jpg') }}" alt="">
+                            <img src="{{ asset('img/dp/dp1.webp') }}" alt="">
                         </div>
                     </div>
 
                     <div class="col">
                         <div class="photo_wrap photo_smile">
-                            <img src="{{ asset('img/dp/dp2.jpg') }}" alt="">
+                            <img src="{{ asset('img/dp/dp2.webp') }}" alt="">
                         </div>
 
                         <div class="photo_wrap photo_big">
-                            <img src="{{ asset('img/dp/dp3.jpg') }}" alt="">
+                            <img src="{{ asset('img/dp/dp3.webp') }}" alt="">
                         </div>
                     </div>
 
                     <div class="col col_one">
                         <div class="photo_wrap photo_big">
-                            <img src="{{ asset('img/dp/dp4.jpg') }}" alt="">
+                            <img src="{{ asset('img/dp/dp4.webp') }}" alt="">
                         </div>
                     </div>
                 </div>
@@ -70,6 +70,28 @@
         <div class="container">
             <h2>Локации которые <br>Вы посетите</h2>
             <x-locations></x-locations>
+        </div>
+    </section>
+
+    <section class="program_section central_section">
+        <div class="container">
+            <h2>Ознакомьтесь с<br>программой тура Санкт-Петербург</h2>
+            <a class="download_btn" href="#"><span>Скачать программу для <br>ознакомления в формате PDF</span></a>
+            <x-program></x-program>
+        </div>
+    </section>
+
+    <section section="contacts_section">
+        <div class="container">
+            <div class="contacts_blk">
+                <div class="map">
+
+                </div>
+                <div class="text">
+                    <h2>Свяжитесь с нами любым удобным способом:</h2>
+
+                </div>
+            </div>
         </div>
     </section>
 
