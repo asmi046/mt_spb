@@ -6,11 +6,30 @@
     width:70%;
     margin: 0 auto;
     .map {
-        height: 600px;
+        height: 400px;
         flex: 1;
     }
 
     .text {
         flex: 1;
+        margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .social_net {
+        display: flex;
+        gap:10px;
+
+        .social_lnk {
+            background-color: $main_color;
+            display: block;
+            width:50px;
+            height: 50px;
+            border-radius: 50px;
+            border:1px solid $gray_border_color;
+        }
     }
 }
