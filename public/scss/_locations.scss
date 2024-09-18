@@ -2,6 +2,9 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+
+    opacity: 0;
+    scale: 0;
     .location{
         width:22%;
         margin-bottom: 20px;
