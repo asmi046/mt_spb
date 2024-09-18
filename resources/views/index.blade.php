@@ -25,7 +25,7 @@
         </div>
     </section>
 
-    <section class="about_section">
+    <section id="about" class="about_section">
         <div class="container">
             <div class="about">
                 <div class="photo">
@@ -66,22 +66,22 @@
         </div>
     </section>
 
-    <section class="location_section">
+    <section id="location" class="location_section">
         <div class="container">
             <h2>Локации которые <br>Вы посетите</h2>
             <x-locations></x-locations>
         </div>
     </section>
 
-    <section class="program_section central_section">
+    <section id="program" class="program_section central_section">
         <div class="container">
             <h2>Ознакомьтесь с<br>программой тура Санкт-Петербург</h2>
-            <a class="download_btn" href="#"><span>Скачать программу для <br>ознакомления в формате PDF</span></a>
+            <a target="_blanck" class="download_btn" href="{{ asset('program/spb_2025.pdf')}}"><span>Скачать программу для <br>ознакомления в формате PDF</span></a>
             <x-program></x-program>
         </div>
     </section>
 
-    <section section="contacts_section">
+    <section id="contacts" section="contacts_section">
         <div class="container">
             <div class="contacts_blk">
                 <x-map.map-in-page></x-map.map-in-page>
