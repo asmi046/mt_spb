@@ -9,6 +9,7 @@
         .bnr_text {
             width:45%;
             margin: auto auto auto 0;
+            opacity: 0;
         }
     }
 
@@ -23,6 +24,7 @@
         background-size: cover;
         right: 0;
         top:0;
+        opacity: 0;
 
         .line {
             position: absolute;

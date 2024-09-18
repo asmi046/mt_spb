@@ -9,7 +9,7 @@ import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 
 gsap.registerPlugin(TextPlugin,ScrollTrigger,ScrollToPlugin);
 
-let tl = gsap.timeline({delay:.5})
+let tl = gsap.timeline({delay:1})
 
 tl.fromTo('.bnr_text',
     {
