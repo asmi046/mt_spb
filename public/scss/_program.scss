@@ -44,3 +44,21 @@
 
 
 }
+
+
+@media (max-width:768px) {
+    .programm_wrapper .dey_element {
+        width: unset;
+    }
+}
+
+@media (max-width:480px) {
+    .programm_wrapper {
+        .dey_element {
+            flex-direction: column;
+            .text {
+                margin: 0;
+            }
+        }
+    }
+}

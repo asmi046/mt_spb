@@ -7,5 +7,5 @@
         'vk' => 'https://vk.com/mirturizma46',
         'ok' => 'https://ok.ru/group/54374461079804',
         'tg' => 'https://t.me/mirturizma46',
-        'ws' => '#',
+        'ws' => 'https://wa.me/79192707553',
     ];

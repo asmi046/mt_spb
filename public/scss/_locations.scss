@@ -14,3 +14,25 @@
 
     }
 }
+
+@media (max-width:1024px) {
+    .location_wrapper .location {
+        width:30%;
+
+        .img {
+            width:100%;
+            height: unset;
+        }
+    }
+}
+
+
+@media (max-width:768px) {
+    .location_wrapper .location {
+        width:48%;
+        margin-bottom: 10px;
+        h3 {
+            font-size: 14px;
+        }
+    }
+}

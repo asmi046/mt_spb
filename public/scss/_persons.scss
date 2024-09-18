@@ -49,3 +49,21 @@
         }
     }
 }
+
+@media (max-width:480px) {
+    .about {
+        padding: 10px 20px;
+
+        .persons {
+            flex-direction: column;
+            justify-content: center;
+            .avatars{
+                width: 145px;
+                margin: 0 auto;
+            }
+            .text {
+                margin-top: 10px;text-align: center;
+            }
+        }
+    }
+}

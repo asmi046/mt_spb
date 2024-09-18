@@ -35,3 +35,11 @@ footer {
     }
 
 }
+
+
+
+@media (max-width:480px) {
+    footer nav ul {
+        flex-direction: column;
+    }
+}
