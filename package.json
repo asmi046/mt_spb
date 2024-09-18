@@ -8,7 +8,7 @@
         "composer_remove": "ssh u1731342@31.31.198.62 \"cd www/spb.mirturizma46.ru && /opt/php/8.1/bin/php composer.phar dumpauto\"",
         "composer_install": "ssh u1731342@31.31.198.62 \"cd www/spb.mirturizma46.ru && /opt/php/8.1/bin/php composer.phar install\"",
         "composer_update": "ssh u1731342@31.31.198.62 \"cd www/spb.mirturizma46.ru && /opt/php/8.1/bin/php composer.phar update\"",
-        "pull_rep": "ssh u1731342@31.31.198.62 \"cd www/spb.mirturizma46.ru && git pull\"",
+        "pull_rep": "ssh u1731342@31.31.198.62 \"cd www/spb.mirturizma46.ru && git pull -f\"",
         "clean_rep": "ssh u1731342@31.31.198.62 \"cd www/spb.mirturizma46.ru && git clean -f\"",
         "stash": "ssh u1731342@31.31.198.62 \"cd www/spb.mirturizma46.ru && git stash\"",
         "reset_rep": "ssh u1731342@31.31.198.62 \"cd www/spb.mirturizma46.ru && git reset --hard\"",
