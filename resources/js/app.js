@@ -1,5 +1,9 @@
 import './bootstrap';
 
+import SideMenu from './menues.js';
+
+let side_menue = new SideMenu('#main_side_menue', '.show_menue_button')
+
 import { gsap } from "gsap";
 
 import { TextPlugin } from "gsap/TextPlugin";
@@ -40,33 +44,51 @@ tl.fromTo('.bnr_text',
         duration:.5
     }
 )
-.to('.location_wrapper', {
-        scrollTrigger:
-         {
-            // trigger: '.location_wrapper',
-            markers:true,
-            start:'top bottom',
-            // pin: true,
-            // end:'+=500',
-            // // scrub:true
-        },
-        opacity:1,
-        scale: 1,
-        duration:2
-    }
 
-)
 
-// gsap.to('.about .photo', {
-//     scrollTrigger: {
-//         trigger: '.about_section',
-//         markers:true,
-//         start:'top bottom',
-//         end:'top center',
-//         scrub:true
-//     },
-//     opacity:1,
-// });
+const locations = Array.from(document.querySelectorAll(".location_wrapper .location"))
+locations.forEach((elem) => {
+    ScrollTrigger.create({
+    trigger: elem,
+    // markers:true,
+    start:'top bottom',
+    animation: gsap.fromTo( elem,
+        { opacity:0, scale: 0 },
+        { opacity:1, scale: 1, duration:1, ease: "power1.out" }
+    ),
+})
+})
+
+const deys = Array.from(document.querySelectorAll(".programm_wrapper .dey_element"))
+deys.forEach((elem) => {
+    ScrollTrigger.create({
+    trigger: elem,
+    // markers:true,
+    start:'top bottom',
+    animation: gsap.fromTo( elem,
+        { opacity:0, scale: 0 },
+        { opacity:1, scale: 1, duration:1, ease: "power1.out" }
+    ),
+})
+})
+
+
+// .to('.location_wrapper', {
+//         scrollTrigger:
+//          {
+//             trigger: '.location_wrapper',
+//             markers:true,
+//             start:'bottom bottom',
+//             // end:'bottom top',
+//             // // scrub:true
+//         },
+//         opacity:1,
+//         scale: 1,
+//         duration:2
+//     }
+
+// )
+
 
 // const items = document.querySelectorAll(".c_blk .c span");
 
@@ -76,3 +98,19 @@ tl.fromTo('.bnr_text',
 //   snap: { textContent: 1 },
 //   stagger: 1,
 // });
+
+const anchors = document.querySelectorAll('a[href*="#"]')
+
+for (let anchor of anchors) {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault()
+
+    main_side_menue.classList.toggle('active');
+    const blockID = anchor.getAttribute('href').substr(1)
+
+    document.getElementById(blockID).scrollIntoView({
+      behavior: 'smooth',
+      block: 'start'
+    })
+  })
+}

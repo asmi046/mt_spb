@@ -31,6 +31,7 @@
     ])
 </head>
 <body>
+    <x-menues.side-menu></x-menues.side-menu>
     <main id="main">
         @yield('main')
     </main>

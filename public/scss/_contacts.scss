@@ -5,6 +5,7 @@
     display: flex;
     width:70%;
     margin: 0 auto;
+    overflow: hidden;
     .map {
         height: 400px;
         flex: 1;
@@ -28,47 +29,51 @@
 
     }
 
-    .social_net {
-        display: flex;
-        gap:10px;
-        margin-top: 20px;
-        .social_lnk {
-            background-color: $main_color;
-            display: block;
-            width:50px;
-            height: 50px;
-            border-radius: 50px;
-            border:1px solid $gray_border_color;
-            background-position: center;
-            background-repeat:  no-repeat;
 
-            &:hover {
-                background-color: $hover_color;
-            }
+}
 
-            &.sl_vk {
-                background-image: url(../img/icon/social/vk.svg);
-            }
+.social_net {
+    display: flex;
+    gap:10px;
+    margin-top: 20px;
+    .social_lnk {
+        background-color: $main_color;
+        display: block;
+        width:50px;
+        height: 50px;
+        border-radius: 50px;
+        border:1px solid $gray_border_color;
+        background-position: center;
+        background-repeat:  no-repeat;
 
-            &.sl_ok {
-                background-image: url(../img/icon/social/ok.svg);
-            }
-
-            &.sl_tg {
-                background-image: url(../img/icon/social/tg.svg);
-            }
-
-            &.sl_ws {
-                background-image: url(../img/icon/social/ws.svg);
-            }
+        &:hover {
+            background-color: $hover_color;
         }
 
+        &.sl_vk {
+            background-image: url(../img/icon/social/vk.svg);
+        }
+
+        &.sl_ok {
+            background-image: url(../img/icon/social/ok.svg);
+        }
+
+        &.sl_tg {
+            background-image: url(../img/icon/social/tg.svg);
+        }
+
+        &.sl_ws {
+            background-image: url(../img/icon/social/ws.svg);
+        }
     }
+
 }
+
+
 
 @media (max-width:768px) {
     .contacts_blk {
-        width:unset;
+        width:100%;
     }
 }
 
@@ -80,7 +85,7 @@
         .map {
             width:100%;
             margin-top: 20px;
-            height: 200px;
+            min-height: 200px;
         }
 
     }
