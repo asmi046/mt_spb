@@ -9,7 +9,7 @@
         <div class="ava ava3">
             <img src="{{asset('img/avatars/ava3.webp')}}" alt="">
         </div>
-        <div class="ava btn"></div>
+        <a href="#showModal" class="ava btn"></a>
     </div>
     <div class="text">
         <p>Уже более <strong>740 школьников</strong><br>путешествуют вместе с <strong>МирТуризма</strong></p>

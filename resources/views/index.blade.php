@@ -20,7 +20,7 @@
                 <h1>Экскурсионный тур в <br><span>Санкт-Петербург</span></h1>
                 <p class="subtext">Специальное предложение по социальной программе стимулирования развития детского туризма.</p>
                 <x-cerecter></x-cerecter>
-                <a class="button" href="#">Узнать подробности</a>
+                <a class="button" href="#showModal">Узнать подробности</a>
             </div>
         </div>
     </section>
