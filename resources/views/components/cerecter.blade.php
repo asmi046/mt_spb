@@ -1,7 +1,7 @@
 <div class="cerecter">
     <div class="c_blk">
-        <p class="c"><span>5</span></p>
-        <p class="text">незабываемыз дней в прекрасном Санкт-Петербурге</p>
+        <p class="c"><span>3</span></p>
+        <p class="text">незабываемых дня в прекрасном Санкт-Петербурге</p>
     </div>
 
     <div class="c_blk">
