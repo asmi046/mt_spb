@@ -10,7 +10,7 @@
     </div>
 
     <div class="c_blk">
-        <p class="c"><span>740<span></p>
+        <p class="c"><span>2740<span></p>
         <p class="text">школьников уже воспользовались программой</p>
     </div>
 </div>
