@@ -46,7 +46,8 @@ tl.fromTo('.bnr_text',
         x:0,
         duration:.5
     }
-).fromTo(
+)
+.fromTo(
     '.bnr_img',
     {
         opacity:0,
@@ -109,14 +110,15 @@ deys.forEach((elem) => {
 // )
 
 
-// const items = document.querySelectorAll(".c_blk .c span");
+const items = document.querySelectorAll(".c_blk .c span");
 
-// gsap.from(items, {
-//   textContent: 0,
-//   duration: 1,
-//   snap: { textContent: 1 },
-//   stagger: 1,
-// });
+gsap.from(items, {
+    delay:2,
+    textContent: 0,
+    duration: .5,
+    snap: { textContent: 1 },
+    stagger: 1,
+});
 
 const anchors = document.querySelectorAll('.menue_puncts_list a[href*="#"]')
 
