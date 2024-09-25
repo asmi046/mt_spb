@@ -81,6 +81,23 @@
         </div>
     </section>
 
+    <section class="in_tur">
+        <div class="container text_styles">
+            <h2>В цену тура входит</h2>
+            <ul>
+                <li>Проживание в отеле</li>
+                <li><strong>2 завтрака, 3 обеда</strong></li>
+                <li><strong>Экскурсия на выбор Петергоф или Екатерининский дворец</strong></li>
+                <li>Посещение на выбор <strong>Эрмитаж или Юсуповский дворец или Русский музей</strong></li>
+                <li><strong>Теплоход. Экскурсия по рекам и каналам.</strong></li>
+                <li><strong>Экскурсия в Кронштадт</strong></li>
+                <li>Экскурсии по программе</li>
+                <li>Услуги гида</li>
+                <li>Транспортное обслуживание в Санкт-Петербурге</li>
+            </ul>
+        </div>
+    </section>
+
     <section id="contacts" section="contacts_section">
         <div class="container">
             <div class="contacts_blk">
