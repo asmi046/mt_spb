@@ -6,7 +6,7 @@
 
     <div class="c_blk c_blk_2">
         <p class="c"><span>10</span>+</p>
-        <p class="text">лучших локация Северной столицы</p>
+        <p class="text">лучших локаций Северной столицы</p>
     </div>
 
     <div class="c_blk  c_blk_3">

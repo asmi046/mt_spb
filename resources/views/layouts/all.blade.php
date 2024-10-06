@@ -50,7 +50,7 @@
 </head>
 <body>
     <div class="modal_win" id="global_app">
-        <modal-window rout="/send_consult" redirect="/thencs" hesh="showModal" title="Помощь специалиста" subtitle="Мы свяжемся с Вами в течении 15 минут"></modal-window>
+        <modal-window rout="/send_consult" redirect="/thencs" hesh="showModal" title="Помощь специалиста" subtitle="Мы свяжемся с Вами в ближайшее время"></modal-window>
     </div>
     <x-menues.side-menu></x-menues.side-menu>
     <main id="main">
