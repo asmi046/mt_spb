@@ -1,8 +1,8 @@
 @extends('layouts.all')
 
 @php
-    $title = "Тур в Санкт-Петербург - МирТуризма 46";
-    $description = "Тур в Санкт-Петербург - МирТуризма 46";
+    $title = 'Тур в Санкт-Петербург - МирТуризма 46';
+    $description = 'Тур в Санкт-Петербург - МирТуризма 46';
 @endphp
 
 @section('title', $title)
@@ -18,7 +18,11 @@
         <div class="container">
             <div class="bnr_text">
                 <h1>Экскурсионный тур в <br><span>Санкт-Петербург</span></h1>
-                <p class="subtext"><strong class="orange">Социальная программа стимулирования развития детского туризма.</strong><br> Учащимся школ Курска и Курской области предоставляется возможность совершить путеществие в Санкт-Петербург по <strong>субсидированной специальной цене</strong> в период <strong>Весна - Лето 2026</strong></p>
+                <p class="subtext"><strong class="orange">Социальная программа стимулирования развития детского
+                        туризма.</strong><br> Учащимся школ Курска и Курской области предоставляется возможность совершить
+                    путеществие в Санкт-Петербург по <strong>субсидированной специальной цене</strong> в период
+                    <strong>Весна - Лето 2027</strong>
+                </p>
                 <x-cerecter></x-cerecter>
                 <a class="button" href="#showModal">Узнать подробности</a>
             </div>
@@ -57,8 +61,12 @@
 
                 <div class="text">
                     <div class="inner">
-                        <h2>Экскурсионный тур в Санкт-Петербург для школьников по  целевой программе</h2>
-                        <p><strong class="orange">Социальная программа стимулирования развития детского туризма.</strong><br>  Учащимся школ Курской области предоставляется возможность осуществить путешествие в Санкт-Петербург по <strong>субсидированной специальной цене</strong> в период <strong>ВЕСНА-ЛЕТО 2026</strong></p>
+                        <h2>Экскурсионный тур в Санкт-Петербург для школьников по целевой программе</h2>
+                        <p><strong class="orange">Социальная программа стимулирования развития детского
+                                туризма.</strong><br> Учащимся школ Курской области предоставляется возможность осуществить
+                            путешествие в Санкт-Петербург по <strong>субсидированной специальной цене</strong> в период
+                            <strong>ВЕСНА-ЛЕТО 2027</strong>
+                        </p>
                         <x-persons></x-persons>
                     </div>
                 </div>
@@ -76,7 +84,8 @@
     <section id="program" class="program_section central_section">
         <div class="container">
             <h2>Ознакомьтесь с<br>программой тура Санкт-Петербург</h2>
-            <a target="_blanck" class="download_btn" href="{{ asset('program/spb_2026.pdf')}}"><span>Скачать программу для <br>ознакомления в формате PDF</span></a>
+            <a target="_blanck" class="download_btn" href="{{ asset('program/spb_2027.pdf') }}"><span>Скачать программу для
+                    <br>ознакомления в формате PDF</span></a>
             <x-program></x-program>
         </div>
     </section>
@@ -104,8 +113,10 @@
                 <x-map.map-in-page></x-map.map-in-page>
                 <div class="text">
                     <h2>Свяжитесь с нами любым удобным способом:</h2>
-                    <a class="phone" href="tel:+7{{ phone_format(config('contacts.phone')) }}">{{ config('contacts.phone') }}</a>
-                    <a class="email" href="mailto:{{ phone_format(config('contacts.email')) }}">{{ config('contacts.email') }}</a>
+                    <a class="phone"
+                        href="tel:+7{{ phone_format(config('contacts.phone')) }}">{{ config('contacts.phone') }}</a>
+                    <a class="email"
+                        href="mailto:{{ phone_format(config('contacts.email')) }}">{{ config('contacts.email') }}</a>
                     <p>{{ config('contacts.adress') }}</p>
 
                     <x-social-net></x-social-net>
@@ -115,4 +126,3 @@
     </section>
 
 @endsection
-
